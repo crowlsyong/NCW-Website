@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #511c63, #165a72, #23d5ab);
+    background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+	height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', 'Lato';
+    z-index: 2;
+    margin: 0px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+a:link { 
+    text-decoration-line: none;
+    text-decoration-style: underline overline;
+    text-decoration-color: #33a51c;
+    color: rgba(255, 105, 180, 0); }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { 
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #33a51c4e;
+    color: rgba(255, 105, 180, 0); }
+
+
+a:active { text-decoration: none; }
