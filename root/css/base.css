@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("basic-grid.css");
 
 body {
     background: linear-gradient(-45deg, #ee7752, #511c63, #165a72, #23d5ab);
